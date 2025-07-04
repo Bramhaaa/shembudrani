@@ -30,7 +30,7 @@ export default function Home() {
             className="text-6xl font-bold text-purple-800 mb-4 transform -rotate-2 drop-shadow-lg"
             style={{ fontFamily: "Fredoka, cursive" }}
           >
-            📚 Shreya
+            📚 Shembud Rani
           </h1>
           <p
             className="text-xl text-purple-600 transform rotate-1"
