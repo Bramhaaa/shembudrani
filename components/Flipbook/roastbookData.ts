@@ -8,7 +8,7 @@ export interface RoastbookEntry {
 export const roastbookData: RoastbookEntry[] = [
   {
     type: "roast",
-    text: "To the smallest person i knwo (🤧 small samaj rahe ho samaj rahe ho)🐌",
+    text: "To the smallest person i knwo (🤧 small samaj rahe ho samaj rahe ho) I LOVE U BEBE🐌",
     emoji: "🤏",
     color: "bg-red-200",
   },
