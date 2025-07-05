@@ -10,6 +10,99 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100 relative overflow-hidden">
+      {/* Scattered Background Images */}
+      <div className="absolute inset-0 opacity-60">
+        {/* Photo-style scattered images with polaroid borders */}
+        <div className="absolute top-16 left-8 w-28 h-28 bg-white p-2 transform rotate-12 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-40 right-16 w-28 h-28 bg-white p-2 transform -rotate-6 shadow-lg">
+          <img
+            src="/photos/2.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute bottom-32 left-12 w-28 h-28 bg-white p-2 transform rotate-6 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute bottom-16 right-20 w-28 h-28 bg-white p-2 transform -rotate-12 shadow-lg">
+          <img
+            src="/photos/2.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-1/3 left-1/4 w-28 h-28 bg-white p-2 transform rotate-45 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-2/3 right-1/3 w-28 h-28 bg-white p-2 transform -rotate-3 shadow-lg">
+          <img
+            src="/photos/2.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-1/2 left-10 w-28 h-28 bg-white p-2 transform rotate-25 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-1/4 right-1/4 w-28 h-28 bg-white p-2 transform -rotate-15 shadow-lg">
+          <img
+            src="/photos/2.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        {/* Additional scattered photos */}
+        <div className="absolute top-3/4 left-1/3 w-28 h-28 bg-white p-2 transform rotate-30 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute bottom-1/4 right-1/2 w-28 h-28 bg-white p-2 transform -rotate-20 shadow-lg">
+          <img
+            src="/photos/2.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+
+        <div className="absolute top-1/6 left-1/2 w-28 h-28 bg-white p-2 transform rotate-8 shadow-lg">
+          <img
+            src="/photos/1.png"
+            alt="background"
+            className="w-full h-full object-cover rounded-sm"
+          />
+        </div>
+      </div>
+
       {/* Scrapbook Background Elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 w-20 h-20 bg-yellow-200 rounded-full transform rotate-12"></div>
