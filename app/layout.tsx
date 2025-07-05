@@ -4,8 +4,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Goofy Roastbook - Where Chaos Meets Love",
-  description: "A playful roastbook with FriendOS - the most goofy way to boost your mood!",
+  title: "Shembud Rani🎭",
+  description: "A heartfelt roastbook filled with memories, roasts, and love!",
     generator: 'v0.dev'
 }
 
